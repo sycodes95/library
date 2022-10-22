@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+form {
+    color: black;
+}
+
+.bookContainer{
+    height: 80vh;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 20px;
+
+}
+
+
+
+.bookCard {
+    gap: 20px;
+    min-width: 300px;
+    min-height: 300px;
+}
