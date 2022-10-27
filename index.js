@@ -8,12 +8,23 @@ let form = document.querySelector('form');
 form.style.display = 'none';
 //hides form from html until it is activated by clicking 'Add book'
 
+/*
 function Book (title, author, pages, read){
     this.title = title;
     this.author = author;
     this.pages = pages;
     this.read = read;
     
+}
+*/
+
+class Book {
+    constructor(title, author, pages, read){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = read;
+    }
 }
 //object constructor
 
